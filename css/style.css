@@ -27,7 +27,7 @@ header img {
 }
 
 header div.welcome {
-    z-index: ;
+    z-index: 1;
     top: 7%;
     left:  5%;
     right: 5%;
@@ -260,5 +260,87 @@ header button {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 30vh;
+}
+/* Sekcja 1 nasze cechy */
+
+.features {
+    margin-top: 50px;
+    padding: 5%;
+    text-align: center;
+}
+
+.features h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.features h2 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.features p {
+    font-family: 'Saira', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.features img {
+    width: 100%;
+    margin: 5px 0;
+    max-width: 375px;
+}
+
+@media (min-width:360px) {
+
+    .features h1 {
+        font-size: 28px;
+    }
+
+    .features h2 {
+        font-size: 24px;
+    }
+
+    features p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:768px) {
+
+    .features h1 {
+        font-size: 36px;
+    }
+
+    .features h2 {
+        font-size: 28px;
+    }
+
+    features p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .feature {
+
+    }
+    
+    .features h1 {
+        font-size: 36px;
+    }
+
+    .features h2 {
+        font-size: 28px;
+    }
+
+    features p {
+        font-size: 18px;
+    }
 }
