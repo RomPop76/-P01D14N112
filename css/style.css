@@ -423,7 +423,9 @@ section {
 }
 
 .portfolio .project {
-    margin-bottom: 20px;
+    max-width: 1400px;
+    margin: 0 auto 20px;
+
 }
 
 .portfolio .project:nth-of-type(odd) {
@@ -434,7 +436,7 @@ section {
     background-color: #29a6dc;
 }
 
-@media (min-width:768px) and (orientation:portrait) {
+@media (min-width:768px) {
    
     .portfolio h1 {
         font-size: 40px;
@@ -466,8 +468,39 @@ section {
     .portfolio .project:nth-of-type(even) .web {
         float: right;
     }
+
+    .portfolio .project:nth-of-type(even) .about {
+        padding-right: 0;
+    }
+
+    .portfolio .project:nth-of-type(even) .about p {
+        padding-right: 20px;
+    }
+
+    .portfolio .project:nth-of-type(even) .about h2 {
+        text-indent: 0;
+        margin-left: 40px;
+    }
 }
 
-@media (orientation: landscape) and (min-width: 1024px) {
+@media (orientation: landscape) and (min-width: 1400px) {
+    .portfolio h1 {
+        font-size: 60px;
+        padding: 30px 0;
+    }
+
+    .portfolio .about h2 {
+        padding-top: 50px;
+        font-size: 28px;
+        text-indent: 40px;
+        margin-bottom: 50px;
+    }
     
+    .portfolio .about p {
+        font-size: 18px;
+        padding-left: 40px;
+        line-height: 180%;
+    }
+
+    .portfolio .project {margin-bottom: 20px;}
 }
