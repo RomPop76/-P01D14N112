@@ -504,3 +504,30 @@ section {
 
     .portfolio .project {margin-bottom: 20px;}
 }
+
+/* Sekcja slogan */
+
+.slogan {
+    text-align: center;
+    background-image: url(../images/motto.jpg);
+    background-size: cover;
+    background-position: top center;
+    padding: 30px 10px;
+    color: white;
+}
+
+.slogan h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.slogan p {
+font-family: 'Saira', sans-serif;
+font-size: 18px;
+}
+
+.slogan p.author {
+    font-size: 12px;
+    }
