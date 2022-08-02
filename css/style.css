@@ -700,3 +700,32 @@ font-size: 18px;
         font-size: 40px;
     }
 }
+
+/* Sekcja contact */
+
+.contact {
+    background-color: black;
+    padding: 30px 20px;
+}
+
+.contact h1 {
+    
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 26px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        color: white;
+        text-align: center;
+    }
+
+.contact input, .contact button, .contact textarea {
+    width: 100%;
+    margin-bottom: 25px;
+    font-family: "Saira", sans-serif;
+}
+
+.contact input {
+    font-size: 12px;
+    height: 36px;
+    padding: 5px;
+}
