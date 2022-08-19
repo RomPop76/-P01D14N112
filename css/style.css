@@ -265,9 +265,6 @@ header button {
     }
 }
 
-footer {
-    min-height: 30vh;
-}
 /* Sekcja 1 nasze cechy */
 
 .features {
@@ -777,6 +774,12 @@ font-size: 18px;
 }
 
 @media (min-width: 1024px) {
+
+    .contact h1 {
+        font-size: 60px;
+        padding: 30px 0;
+    }
+
     .contact form, .contact .socials {
         float: left;
         width: 50%;
@@ -804,10 +807,23 @@ font-size: 18px;
     }
     
     .contact button {
-        font-size: 14px;
-        line-height: 40px;
-        background-color:black;
-        color: white;
-        border: 2px solid white;
+        font-size: 20px;
+        line-height: 50px;
+        transition: .3s;
+        cursor: pointer;
+    }
+
+    .contact button:hover {
+        color: black;
+        background-color: white;
     }
 } 
+
+footer {
+    background-color: #29a6dc;
+    color: white;
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
